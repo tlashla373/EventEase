@@ -52,10 +52,10 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[url(https://png.pngtree.com/thumb_back/fh260/background/20220428/pngtree-digital-marketing-doodle-business-campaign-image_1111013.jpg)] flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-cover bg-center bg-[url(https://asset.gecdesigns.com/img/background-templates/abstract-navy-red-background-design-sr17012401-1705501852665-cover.webp)] flex flex-col justify-center py-12 sm:px-6 lg:px-8">
 
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
-        <div className="bg-white py-6 px-4 shadow-[0px_0px_25px_-3px_#4c4b4d] sm:rounded-lg sm:px-10">
+        <div className="bg-white bg-opacity-80 py-6 px-4 shadow-[0px_0px_25px_-3px_#4c4b4d] sm:rounded-lg sm:px-10">
 
           <div className="">
             <div className=" flex justify-center">
@@ -186,7 +186,7 @@ const Login: React.FC = () => {
                   <div className="w-full border-t border-gray-300" />
                 </div>
                 <div className="relative flex justify-center text-sm">
-                  <span className="px-2 bg-white text-gray-500">Or continue with</span>
+                  <span className="px-2 text-gray-500">Or continue with</span>
                 </div>
               </div>
 

@@ -63,10 +63,10 @@ const Register: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[url(https://png.pngtree.com/thumb_back/fh260/background/20220428/pngtree-digital-marketing-doodle-business-campaign-image_1111013.jpg)] flex flex-col justify-center py-12 sm:px-4 lg:px-6">
+    <div className="min-h-screen bg-cover bg-center bg-[url(https://asset.gecdesigns.com/img/background-templates/abstract-navy-red-background-design-sr17012401-1705501852665-cover.webp)] flex flex-col justify-center py-12 sm:px-4 lg:px-6">
       
       <div className="mt-0 sm:mx-auto sm:w-full sm:max-w-md">
-        <div className="bg-white py-6 px-4 shadow-[0px_0px_25px_-3px_#4c4b4d] sm:rounded-lg sm:px-10">
+        <div className="bg-white bg-opacity-80 py-6 px-4 shadow-[0px_0px_25px_-3px_#4c4b4d] sm:rounded-lg sm:px-10">
         
 
           <div className="space-y-2">
@@ -200,20 +200,20 @@ const Register: React.FC = () => {
               <div>
                 <label className="label">I want to register as</label>
                 <div className="mt-1 grid grid-cols-2 gap-4">
-                  <label className={`relative flex items-center justify-center p-4 border rounded-lg cursor-pointer 
+                  <label className={`relative flex items-center justify-center p-4 border border-sky-600 rounded-lg cursor-pointer 
                     ${watch('role') === 'participant' ? 'border-primary-500 bg-primary-50' : 'border-gray-300'}`}>
                     <input
                       type="radio"
                       value="participant"
-                      className="sr-only"
+                      className="sr-only "
                       {...register('role')}
                     />
-                    <span className={`text-sm font-medium ${watch('role') === 'participant' ? 'text-primary-700' : 'text-gray-700'}`}>
+                    <span className={`text-sm  font-medium ${watch('role') === 'participant' ? 'text-primary-700' : 'text-gray-700'}`}>
                       Participant
                     </span>
                   </label>
                   
-                  <label className={`relative flex items-center justify-center p-4 border rounded-lg cursor-pointer 
+                  <label className={`relative flex items-center justify-center p-4 border border-sky-600 rounded-lg cursor-pointer 
                     ${watch('role') === 'organizer' ? 'border-primary-500 bg-primary-50' : 'border-gray-300'}`}>
                     <input
                       type="radio"

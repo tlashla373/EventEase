@@ -78,6 +78,7 @@ const TicketView: React.FC = () => {
             </p>
             <Button
               variant="primary"
+              className='flex items-center'
               leftIcon={<ArrowLeft size={16} />}
               onClick={() => navigate('/participant/dashboard')}
             >
